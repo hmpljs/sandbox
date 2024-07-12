@@ -4,12 +4,16 @@
   "description": "test server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js localhost 8080"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "html-webpack-plugin": "^5.5.3",
+    "html-loader": "^5.0.0"
   }
 }
