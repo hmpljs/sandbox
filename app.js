@@ -11,10 +11,6 @@ app.use(cors({ origin: true, credentials: true }));
 
 app.set(express.static(path.join(__dirname, "src")));
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "src/index.html"));
-});
-
 app.use("/api", routes);
 
 app.listen(PORT);
