@@ -4,18 +4,12 @@
   "description": "test server",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "start-server": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "html-loader": "^5.0.0",
-    "html-webpack-plugin": "^5.5.3",
-    "nodemon": "^3.1.0",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "nodemon": "^3.1.0"
   }
 }
